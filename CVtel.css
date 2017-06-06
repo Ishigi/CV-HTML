@@ -1,0 +1,301 @@
+
+body
+{
+  /*background-image: url(Images/fond.png);*/
+  padding-left: 0%;
+  padding-right: 0%;
+  min-width: 100px;
+}
+.div
+{
+  max-width: 100%;
+  display: block;
+}
+.div_top
+{
+  width: 100%;
+  padding-top: 2%;
+}
+.div_profil
+{
+  width: 55%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10% 10% 10% 10% / 20% 20% 20% 20%;
+  background-color: #608DC4;/*BLEU FONCE*/
+  margin-left: -3%;
+  font-size: 0.8em;
+}
+.div_photos
+{
+  width: 25%;
+  margin-right: 3%;
+}
+.div_photos img
+{
+  width: 100%;
+  height: auto;
+}
+.div_langues
+{
+  width: 20%;
+  height: auto;
+}
+.div_langues img
+{
+  width: 30%;
+  height: auto;
+  background-color: lime;
+  float: right;
+}
+
+.nom
+{
+  color: #17365D;
+  font-weight: bolder;
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.mail
+{
+  color: #17365D;
+  font-weight: bolder;
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  word-wrap: break-word;
+
+}
+.tel
+{
+  color: #17365D;
+  font-weight: bolder;
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.adresse
+{
+  color: white;
+  font-weight: bold;
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+.ville
+{
+  color: white;
+  font-weight: bold;
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+.naissance
+{
+  color: white;
+  font-weight: bold;
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+.div_titre
+{
+  width:100%;
+  border-radius: 1% 1% 1% 1% / 20% 20% 20% 20%;
+  margin-top: 110px;
+  margin-left: -0.1%;
+  background-color: #608DC4;/*BLEU FONCE*/
+  color: white;
+  text-align: center;
+  font-size: 130%;
+  font-weight: bolder;
+  word-wrap: break-word;
+}
+@media screen and (max-width:321px)
+{
+  .div_titre
+  {
+    margin-top: 115px;
+    font-size: 100%;
+    width: 105%;
+  }
+  .div_profil
+  {
+    font-size: 80%;
+  }
+  .div_top
+  {
+    width: 105%;
+  }
+  .div_bas
+  {
+    width: 105%;
+  }
+  .div_phrase
+  {
+    padding-left: 2%;
+  }
+  .txt_parcour_pro
+  {
+    padding-right: 2%;
+  }
+}
+.div_phrase
+{
+  width:100%;
+  margin-left: -0.5%;
+  border-radius: 1% 1% 1% 1% / 20% 20% 20% 20%;
+  margin-top: -1%;
+  color: #17365D;
+  text-align: center;
+  font-size: 100%;
+  font-weight: bolder;
+}
+.div_picto
+{
+  width:100%;
+  margin-top: 1%;
+  margin-left: 7%;
+  color: #17365D;
+  font-size: 90%;
+}
+.force_prop
+{
+  background-color: #DAD99A;
+  width: 33%;
+  color: #17365D;
+  float: left;
+}
+.focus
+{
+  background-color: #DAD99A;
+  width: 33%;
+  color: #17365D;
+  float: left;
+}
+.dispo
+{
+  margin-top: 1.5%;
+  background-color: #DAD99A;
+  width: 33%;
+  color: #17365D;
+  float: left;
+}
+.txt_picto
+{
+  vertical-align: middle;
+}
+.gauche
+ {
+   width: 100%;
+   margin-left: 0.5%;
+   margin-top: 0.5%;
+   overflow: hidden;
+   height: 1.5em;
+ }
+ .gauche:hover
+ {
+   height: auto;
+ }
+.droit
+ {
+   width: 97%;
+ }
+ .tel_competences
+ {
+   overflow: hidden;
+   height: 3em;
+   width: 103%;
+ }
+ .tel_competences:hover
+ {
+   height: auto;
+   width: 103%;
+ }
+.tel_formation
+{
+  overflow: hidden;
+  height: 3em;
+  width: 103%;
+}
+.tel_formation:hover
+{
+  height: auto;
+  width: 103%;
+}
+.tel_loisirs
+{
+  overflow: hidden;
+  height: 3em;
+  width: 103%;
+}
+.tel_loisirs:hover
+{
+  height: auto;
+  width: 103%;
+}
+
+
+.div_parcour_pro
+{
+  margin-top: -4%;
+  background-color: #608DC4;
+  width: 99.5%;
+  color: white;
+  font-size: 100%;
+  text-align: center;
+  border-radius: 1% 0% 0% 1% / 20% 0% 0% 20%;
+}
+.txt_parcour_pro
+{
+  padding-right: 3%;
+}
+.poste
+{
+  font-weight: bolder;
+}
+.div_parcour_pro2
+{
+  background-color: #608DC4;
+  width: 103%;
+  color: white;
+  font-size: 100%;
+  text-align: center;
+  border-radius: 1% 1% 1% 1% / 20% 20% 20% 20%;
+}
+.div_picto img
+{
+  width: 150%;
+  height: auto;
+}
+.div_picto table
+{
+  width: 100%;
+}
+.div_picto span
+{
+  display: none;
+}
+
+.div_comp li
+{
+  width: 250px;
+}
+.div_comp table
+{
+  width: 70%;
+  margin-top: -10%;
+}
+.div_comp span
+{
+  width: 60%;
+  display: inline-block;
+}
